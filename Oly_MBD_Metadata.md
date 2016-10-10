@@ -7,7 +7,7 @@ Journal:
 Link:   
 Description: 
  
-High-throughput sequencing, and analysis, of Olympia oyster (Ostrea lurida), MBD-enriched and bisulfite-treated DNA from two parent populations, both grown out in Clam Bay (Manchester):
+High-throughput sequencing, and analysis, of Olympia oyster (_Ostrea lurida_), MBD-enriched and bisulfite-treated DNA from two parent populations, both grown out in Clam Bay (Manchester):
 https://github.com/RobertsLab/project-olympia.oyster-genomic/wiki/MBD-BSseq-December-2015
 
     Populations
