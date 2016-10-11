@@ -1,0 +1,13 @@
+##### Remote Access
+ssh srlab@128.95.149.201 #ssh into roadrunner
+
+
+##### Prepare data
+cd Documents #move into Documents folder
+mkdir Putnam #Make new directory for working
+#mount Owl if not already mounted
+nohup cp -r /Volumes/web/O_lurida_genome_assemblies_BGI/ /Users/srlab/Documents/Putnam #no hangup copying of genome files
+mkdir /Users/srlab/Documents/Putnam/20160203_mbdseq #make directory for file storage
+nohup cp -r /Volumes/web/nightingales/O_lurida/20160203_mbdseq /Users/srlab/Documents/Putnam/20160203_mbdseq #no hangup copying of MBD files
+
+##### Start Jupyter Notebook
