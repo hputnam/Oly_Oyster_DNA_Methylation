@@ -16,8 +16,9 @@ docker ps -a
 docker run -p 8787:8787 -p 8888:8888 -v /Users/hollie/Documents/Putnam/Data:/Users/hollie/Documents/HP_BioInf -it 1fe58115cbb0 /bin/bash
 
 jupyter notebook --ip=0.0.0.0
+docker-machine ip
 
-paste in browser 192.168.99.103:8888
+paste in browser with additional :8888
 
 
 #hollie exit docker
