@@ -7,13 +7,32 @@ Journal:
 Link:   
 Description: 
  
-High-throughput sequencing, and analysis, of Olympia oyster (_Ostrea lurida_), MBD-enriched and bisulfite-treated DNA from two parent populations, both grown out in Clam Bay (Manchester):
-https://github.com/RobertsLab/project-olympia.oyster-genomic/wiki/MBD-BSseq-December-2015
+High-throughput sequencing, and analysis, of Olympia oyster (_Ostrea lurida_), MBD-enriched and bisulfite-treated DNA from two parent populations (Hood Canal=HC, and Osyter Bay=South Sound=SS), both grown out in Clam Bay (Manchester, WA):
+
+[Olympia Oyster Project Repo](https://github.com/RobertsLab/project-olympia.oyster-genomic/wiki/MBD-BSseq-December-2015)
 
     Populations
     Hood Canal (HC=Hood Canal)
     Oyster Bay (SS=South Sound)
+    
+## Sample preparation
+DNA extracted with Omega E.Z.N.A. Mollusc DNA Kit* [Extraction1](https://marinegenes.com/2015/10/27/tuesday-102715/)
+* [Extraction2](https://marinegenes.com/2015/10/26/monday-102615/)
+* [Extraction3](https://marinegenes.com/2015/10/29/102915/)
+* [Extraction4](https://marinegenes.com/2015/10/30/friday-103015/)
 
+Methylation Enrichment
+
+* [Sonication](http://onsnetwork.org/kubu4/2015/11/19/dna-sonication-oly-gdna-for-mbd/)
+* [Precipitation](http://onsnetwork.org/kubu4/2015/11/22/ethanol-precipitation-olympia-oyster-mbd/)
+* [Methylation Enrichment](http://onsnetwork.org/kubu4/2015/11/21/mbd-enrichment-sonicated-olympia-oyster-gdna/)
+* [MBD Enriched DNA Quantification](http://onsnetwork.org/kubu4/2015/11/23/dna-quantification-mbd-enriched-olympia-oyster-dna/)
+
+Library Prep and Sequencing  
+
+* Libraries were prepped by [ZymoResearch](http://onsnetwork.org/kubu4/2015/12/08/sample-submission-olympia-oyster-mbd-enriched-dna-to-zymoresearch/)
+* Sequencing was Illumina 50bp, single read
+* Total reads generated for this project: 1,481,836,875
 
 ## Data Description
 
@@ -27,13 +46,13 @@ https://github.com/RobertsLab/project-olympia.oyster-genomic/wiki/MBD-BSseq-Dece
 
 ## Notes about files
 
-    The 18 samples listed above had previously been MBD-enriched and then sent to ZymoResearch for bisulfite conversion, multiplex library construction, and subsequent sequencing. The library (multiplex of all samples) was sequenced in a single lane, three times. Thus, we would expect 54 FASTQ files. However, ZymoResearch was dissatisfied with the QC of the initial sequencing run (completed on 20160129), so they re-ran the samples (completed on 20160202). This created two sets of data, resulting in a total of 108 FASTQ files.
+    The 18 samples were MBD-enriched and then sent to ZymoResearch for bisulfite conversion, multiplex library construction, and subsequent sequencing. The library (multiplex of all samples) was sequenced in a single lane, three times. Thus, we would expect 54 FASTQ files. However, ZymoResearch was dissatisfied with the QC of the initial sequencing run (completed on 20160129), so they re-ran the samples (completed on 20160202). This created two sets of data, resulting in a total of 108 FASTQ files.
 
     Filenames containing s1, s2, or s3 are from initial sequencing run.
 
     Filenames containing s4, s5, or s6 are from second sequencing run.
 
-## Files:
+## Bisulfite Sequencing Files:
 
 FILENAME |	READS |	SAMPLE 
 --- | --- | --- 
@@ -146,8 +165,11 @@ zr1394_9_s4_R1.fastq.gz |	26183621 |	hc3_11
 zr1394_9_s5_R1.fastq.gz |	25958649 |	hc3_11
 zr1394_9_s6_R1.fastq.gz |	26004238 |	hc3_11
 
-Genome from BGI
-owl.fish.washington.edu/O_lurida_genome_assemblies_BGI/
+## Reference Genome Files
+[Sample Prep and Sequencing](http://onsnetwork.org/kubu4/category/olympia-oyster-genome-sequencing/)
+
+* [Genome Data](owl.fish.washington.edu/O_lurida_genome_assemblies_BGI/)
+* 20160512 - Ostrea_lurida.scafSeq file was trimmed to retain reads >10k to reduce small repeated fragments that prevent mapping of bisulfite reads.
 
 ## Scripts: 
 
