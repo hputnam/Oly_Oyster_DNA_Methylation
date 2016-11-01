@@ -6,6 +6,8 @@ eval "$(docker-machine env default)"
 #build docker
 docker build --tag="hmp/bioinformatics:v11" --file="Dockerfile.bio" .
 
+docker build --tag="NAME/bioinformatics:v11" --file="Dockerfile.bio" .
+
 # identify existing image
 docker ps -a
 
