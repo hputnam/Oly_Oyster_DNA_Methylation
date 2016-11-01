@@ -171,7 +171,7 @@ zr1394_9_s6_R1.fastq.gz |	26004238 |	hc3_11
 * [Genome Data](owl.fish.washington.edu/O_lurida_genome_assemblies_BGI/)
 * 20160512 - Ostrea_lurida.scafSeq file was trimmed to retain reads >10k to reduce small repeated fragments that prevent mapping of bisulfite reads.
 
-## Scripts: 
+## Notebooks: 
 
 	
 ## Data:
